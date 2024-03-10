@@ -234,27 +234,27 @@ client.on("interactionCreate", async (interaction) => {
           .addFields([
             {
 				name: "Şuan Ki Rankın?",
-				value: `• \`Rankınız\``,
+				value: `• \`${adiniz}\``,
 				inline: true,
           },
           {
 				name: "Peak Rankın?",
-				value: `• \`Çıkabildiğiniz en yüksek rank\``,
+				value: `• \`${yasiniz}\``,
 				inline: true,
           },
           {
 				name: "Pracc/Turnuva Tecrübeniz ve Olduysa Neler?",
-				value: `• \`Tecrübeleriniz\``,
+				value: `• \`${tecrubeleriniz}\``,
 				inline: true,
           },
           {
 				name: "Oynayabildiğin Karakterler?",
-				value: `• \`Düelist, Omen vs.\``,
+				value: `• \`${bildiginiz_diller}\``,
 				inline: true,
           },
           {
 				name: "Oyunu Ne Zamandan Beri Oynuyorsun?",
-				value: `• \`Oyunu oynama süreniz.\``,
+				value: `• \`${bildiginiz_yazilim_dilleri}\``,
 				inline: true,
             },
           ]);
@@ -311,27 +311,27 @@ client.on("interactionCreate", async (interaction) => {
         .addFields([
           {
             name: "Şuan Ki Rankın?",
-            value: `• \`Rankınız\``,
+            value: `• \`${adiniz}\``,
             inline: true,
           },
           {
             name: "Peak Rankın?",
-            value: `• \`Çıkabildiğiniz en yüksek rank\``,
+            value: `• \`${yasiniz}\``,
             inline: true,
           },
           {
             name: "Pracc/Turnuva Tecrübeniz ve Olduysa Neler?",
-            value: `• \`Tecrübeleriniz\``,
+            value: `• \`${tecrubeleriniz}\``,
             inline: true,
           },
           {
             name: "Oynayabildiğin Karakterler?",
-            value: `• \`Düelist, Omen vs.\``,
+            value: `• \`${bildiginiz_diller}\``,
             inline: true,
           },
           {
             name: "Oyunu Ne Zamandan Beri Oynuyorsun?",
-            value: `• \`Oyunu oynama süreniz.\``,
+            value: `• \`${bildiginiz_yazilim_dilleri}\``,
             inline: true,
           },
         ]);
